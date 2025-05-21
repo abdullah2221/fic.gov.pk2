@@ -283,7 +283,7 @@ ul#topnav .sub ul li a:hover, ul#topnav .sub ul li .subnavHover {
     border-top: 1px solid #104336;
 }
 .nav > li > .parent {
-    background-image: url(../images/downArrow.png);
+    background-image: url(assets/images/downArrow.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -331,7 +331,7 @@ ul#topnav .sub ul li a:hover, ul#topnav .sub ul li .subnavHover {
         background-position: 95% 50%;
     }
     .nav li li .parent {
-        background-image: url(../images/downArrow.png);
+        background-image: url(assets/images/downArrow.png);
         background-repeat: no-repeat;
         background-position: 95% 50%;
     }
