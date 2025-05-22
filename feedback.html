@@ -892,37 +892,39 @@
                                  </form>
                                  
                                  <script type="text/javascript">
-                                 
-                                 function myForm(){
-                                    
-                                 var email_f = $('#email_f').val();
-                                 var message_f = $('#message_f').val();
-                                    
-                                    if(email_f == ''){
-                                        $('#error_em').html('(Required)');
-                                        
-                                    }
-                                    if(message_f == ''){
-                                         $('#error_me').html('(Required)');
-                                    }
-                                    else{
-                                        $('email_f='+email_f+'&message_f='+message_f+'',function(data){
-                                            $('.email_f').html('');
-                                            $('.message_f').html('');
-                                        });
-                                        return false;
-                                    }
-                                    return false;
-                                }
-                                
-                                function clr(val){
-                                   
-                                   $('#'+val).html('');
-                                   
-                                }
-                                                                 
-                                 
-                                 </script>
+                                  function myForm() {
+                                      var email_f = $('#email_f').val().trim();
+                                      var message_f = $('#message_f').val().trim();
+                              
+                                      var hasError = false;
+                              
+                                      if (email_f === '') {
+                                          $('#error_em').html('(Required)');
+                                          hasError = true;
+                                      }
+                              
+                                      if (message_f === '') {
+                                          $('#error_me').html('(Required)');
+                                          hasError = true;
+                                      }
+                              
+                                      if (!hasError) {
+                                          // Show success alert
+                                          alert('Feedback submitted successfully!');
+                              
+                                          // Clear the form fields
+                                          $('#email_f').val('');
+                                          $('#message_f').val('');
+                                      }
+                              
+                                      return false; // Prevent form from submitting/reloading
+                                  }
+                              
+                                  function clr(val) {
+                                      $('#' + val).html('');
+                                  }
+                              </script>
+                              
                                  
                                  
                                  
@@ -1183,7 +1185,7 @@ $(window).load(function() {
 
          <div class="facebhide" style="float: left; margin: 4px 0 0;">
          
-<iframe src="https://web.archive.org/web/20241208120601if_/https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFicfsd&amp;tabs=timeline&amp;width=250&amp;height=100&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="250" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFicfsd&amp;tabs=timeline&amp;width=250&amp;height=100&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="250" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 
 </div> 
 
