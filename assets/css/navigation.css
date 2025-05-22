@@ -10,7 +10,7 @@
   left:-16px;
   width:133px;
   height: 61px;
-  background-image: url('https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/..images/accessDrop_bg.png');
+  background-image: url('https://web/20250222152132im_/http://fic.gop.pk/css/..images/accessDrop_bg.png');
   text-decoration: none;
 }
 
@@ -44,12 +44,12 @@
 }
 
 #nav_BG {
-    background: url("https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/bottomHeader_shadow.png") repeat-x scroll center top transparent;
+    background: url("https://web/20250222152132im_/http://fic.gop.pk/css/images/bottomHeader_shadow.png") repeat-x scroll center top transparent;
     height: 33px;
 }
 
 #header {
-  background: url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/header.jpg) no-repeat;
+  background: url(https://web/20250222152132im_/http://fic.gop.pk/css/header.jpg) no-repeat;
   max-width: 970px;
   width: 100%; 
   height: 179px;
@@ -82,7 +82,7 @@ ul#topnav li {
   padding: 0;
 }
 
-ul#topnav .navEnd { display:block; height:33px; width:2px; background-image:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/themes/navSeperator_Blue.png); }
+ul#topnav .navEnd { display:block; height:33px; width:2px; background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/themes/navSeperator_Blue.png); }
 
 ul#topnav li a {
   float: left;
@@ -97,7 +97,7 @@ ul#topnav li a {
   text-decoration:none;
   /* margin:-2px 0; */
   display:block;
-  background-image:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/navSeperator.png);
+  background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/navSeperator.png);
   background-repeat:no-repeat;
   background-position:top left;
 }
@@ -108,7 +108,7 @@ ul#topnav li a {
 
 ul#topnav li:hover a, ul#topnav li a:hover {
   /* [disabled]background-position: left bottom; */
-  background:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/home_current_middle.png) repeat-x;
+  background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/home_current_middle.png) repeat-x;
   /* [disabled]height:37px; */
   margin-top:-2px;
   margin-bottom:-2px;
@@ -121,7 +121,7 @@ ul#topnav li:hover a, ul#topnav li a:hover {
 .topMenu { height:37px; line-height:37px; margin:0; display:block; }
 
 .itemhover {
-  background:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/home_current_middle.png) repeat-x;
+  background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/home_current_middle.png) repeat-x;
   height:37px;
   margin-top:-2px !important;
   margin-bottom:-2px !important;
@@ -148,13 +148,13 @@ ul#topnav li .sub {
 
 ul#topnav li:hover .sub { display:block; position:absolute; }
 
-.BGcolor { background:url("https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/box_3_bottom_inner.png") repeat-x bottom #FFFFFF; margin:0 4px; padding:0px 3px; }
-.shadowLeft { background-image:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_left.png); background-repeat:repeat-y; background-position:left; }
-.shadowRight { background-image:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_right.png); background-repeat:repeat-y; background-position:right; }
+.BGcolor { background:url("https://web/20250222152132im_/http://fic.gop.pk/css/images/box_3_bottom_inner.png") repeat-x bottom #FFFFFF; margin:0 4px; padding:0px 3px; }
+.shadowLeft { background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_left.png); background-repeat:repeat-y; background-position:left; }
+.shadowRight { background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_right.png); background-repeat:repeat-y; background-position:right; }
 .shadowBottom { height:4px; }
-.shadowBottomLeft { background:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottomLeft.png) ; width:4px; height:4px; float:left; }
-.shadowBottomRight { background:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottomRight.png) ; width:4px; height:4px; float:right; }
-.shadowBottomBG { background:url(https://web.archive.org/web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottom.png) repeat-x; height:4px; margin:0 4px; }
+.shadowBottomLeft { background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottomLeft.png) ; width:4px; height:4px; float:left; }
+.shadowBottomRight { background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottomRight.png) ; width:4px; height:4px; float:right; }
+.shadowBottomBG { background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottom.png) repeat-x; height:4px; margin:0 4px; }
 
 /*ul#topnav li:hover .sub{ margin-top:-2px; }*/
 
